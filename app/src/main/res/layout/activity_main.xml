@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a15017573.p01_dailygoals.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewRead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read up on materials before class"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textViewReadAchieve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Did I achieve this goal today?"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupRead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="16dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonReadYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButtonReadNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="No" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textViewPunctual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Arrive on time so as to not to miss important part of the lesson"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/textViewPunctualAchieve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Did I achieve this goal today?"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupPunctual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButtonPunctualYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButtonPunctualNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textViewAttempt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Attempt the problem myself" />
+
+        <TextView
+            android:id="@+id/textViewAttemptAchieve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Did I achieve this goal today?" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupAttempt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButtonAttemptYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButtonAttemptNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textViewReflect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My personal reflection today" />
+
+        <EditText
+            android:id="@+id/editTextReflect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/buttonOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>
